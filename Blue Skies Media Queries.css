@@ -1,4 +1,4 @@
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 750px) {
   .logo {
     width: 100%;
   height: auto;
@@ -20,15 +20,31 @@
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
-    text-align: left;}
-
- h3 {
+    text-align: left;
+  
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    h3 {
       font-size: larger;
     }
  p {
       font-size: larger;
     }
+    
+    #macchina {
+      width: 100%;
+      margin-right: 30%;
+      margin-left: 70%;
   }
+  }}
+
+
+  
   @media (max-width: 900px){
    .topnav {
     width: 100%;
@@ -55,20 +71,3 @@
 
     }
     }
-
-
-@media screen and (max-width: 750px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-
-  #macchina {
-    width: 100%;
-    margin-right: 30%;
-    margin-left: 70%;
-}
-}
