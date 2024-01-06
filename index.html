@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta>
+    <meta charset="utf-8"> <meta author="Martina Castellari"> <html lang="it"></meta>
+
+
+        <title>Blue Skies - Big Band</title>
+        <link rel="icon" type="image/x-icon" href="Blue skies logo.png">
+        <link rel="stylesheet" href="foglio-stile.css">
+        <link rel="stylesheet" href="Blue Skies Media Queries.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=josefin+sans-regular">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=yesevaone-regular"> 
+    <style>
+            @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;1,300&display=swap');
+     </style>
+   
+  </head>
+
+    <body>
+
+      <div class="logo">
+        <h2><a href="index.html"> <img src="Blue skies con testo.png" width="300" alt="il logo della Blue Skies Big Band: un sole a forma di disco nascosto da una nuvola"></a></h2></div>
+
+            <div class="topnav" id="myTopnav">   
+            <a href="#home" class="active">Home</a>
+            <a href="Chi Siamo.html">Chi siamo</a>
+            <a href="#contact">Attività</a>
+            <div class="dropdown">
+              <button class="dropbtn">Introduzione al jazz
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Storia del Jazz</a>
+                <a href="#">Lessico Jazz</a>
+              </div>
+            </div> 
+            <a href="#contact">Eventi</a>
+            <a href="#about">Contatti</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+          
+        <div class="hero-image"> 
+            <div class="hero-text">
+            <h1>Blue Skies Big Band</h1>
+            <h2>dal 2022, vogliamo far sorridere le persone e unirle con la musica</h2>
+            <br>
+            <p>Come i cieli blu, siamo un progetto che mira a favorire il dialogo intergenerazionale tra i giovani musicisti e i musicisti anziani</p>
+        </div>
+        </div>
+
+<div class="container reveal">
+<section>
+<div class="quote">
+<h2><q>Nel jazz invece non solo il solista crea la sua musica improvvisando su un giro armonico, ma spesso compone il tema e gli arrangiamenti. È una cosa molto diversa, e immensamente gratificante.</q></h2>
+<cite>P. Angela</cite>
+</div>
+<br>
+
+<div class="row">
+    <div class="column">
+        <img src="Tromba.png" width="300px"  alt="un giovane uomo adulto suona la tromba">
+        <h3>Chi siamo?</h3>
+        <hr>
+        <br>
+        <p>Fondato nel 2022, il gruppo Blue Skies vede l'incontro di adolescenti e giovani adulti con i residenti della casa di riposo <quote>Henghel Gualdi</quote>. Il nostro progetto mira a far dialogare delle generazioni diverse, accomunate dalla passione per la musica jazz e dal desiderio di conoscerla e praticarla.</p>
+        <br>
+        <div class="button-column"><button>Scopri le nostre attività</button></div></div>
+    <div class="column">
+        <img src="pianola.png" width="300px" alt="un pianoforte elettrico sta venendo suonato da delle mani di un uomo adulto">
+        <h3>Eventi</h3>
+        <hr>
+        <br>
+        <p>Periodicamente, la big band si esibisce in piccoli saggi pubblici o in eventi di beneficenza in ospedali e scuole.</p>
+        <br>
+        <div class="button-column"><button>I nostri eventi futuri</button></div></div>
+  </div> 
+</section>
+</div>
+<br>
+<hr>
+<br>
+<div class="container reveal">
+  <section>
+<div id="macchina"><h1><img src="Blue skies come raggiungerci.png" style="height: 350px" alt="Un disegno di un'automobile mentre si dirige. Gli alberi hanno la forma di contrabbasso e la strada assomiglia a un pianoforte"></h1></div>
+  
+<h1>Attività e Prezzi</h1>
+<hr>
+  <br>
+  <div class="map">
+  <p>Ogni <b>giovedì sera</b> la band si riunisce dalle <b>18</b> alle <b>19</b> alla casa di riposo per musicisti "Henghel Gualdi", in Piazza Maggiore, 1 a Bologna.</p>
+  <p>Per gli studenti, il costo previsto per ogni lezione consiste di <b>15 €</b> cadauna, pagati ogni fine del mese.</p>
+  </div>   
+  </div>
+  </section>
+  </div>
+  <br>
+
+  <footer>
+            <div class="footer-info">
+                <h4>Seguici sui social</h4>
+                <a href="https://www.instagram.com/blueskiesbologna/" class="fa fa-instagram"></a>
+                <h4>Numero Telefonico: +39 333 333 333;</h4>
+                <h4> Piazza Maggiore, 1, Bologna - Casa di Riposo "Henghel Gualdi"</h4>
+                <h4>Partita IVA: IT 000 000 000 00</h4>
+                <h4> &#169; 2023-2024: Marfa Olipvc</h4>
+                </div>
+                <div class="footer-home"> <a href="#">home</a> <a href="#">Chi siamo</a><a href="#">Attività</a><a href="#">Introduzione al jazz</a></div>
+            </footer>
+    </body>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        
+        function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+
+function navBarFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://informaticaumanistica.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src='//cdn.matomo.cloud/informaticaumanistica.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+</html>
