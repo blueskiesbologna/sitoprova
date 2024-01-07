@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta>
+    <meta charset="utf-8"><meta author="Martina Castellari"> <html lang="it"> <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <title>Blue Skies - Big Band</title>
+        <link rel="icon" type="image/x-icon" href="Blue Skies Logo.png">
+        <link rel="stylesheet" href="foglio-stile.css">
+        <link rel="stylesheet" href="Blue Skies Media Queries.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=josefin+sans-regular">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=yesevaone-regular"> 
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;1,300&display=swap');
+          </style>
+    </head>
+
+    <body>
+      <div class="logo">
+        <h2><a href="index.html"> <img src="Blue skies con testo.png" width="300"></a></h2></div>
+
+        <div class="topnav" id="myTopnav">
+          <a href="index.html" class="active">Home</a>
+            <a href="Chi Siamo.html">Chi siamo</a>
+            <a href="#contact">Attività</a>
+            <div class="dropdown">
+              <button class="dropbtn">Introduzione al jazz
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Storia del Jazz</a>
+                <a href="#">Lessico Jazz</a>
+              </div>
+            </div> 
+            <a href="#contact">Eventi</a>
+            <a href="#about">Contatti</a>
+            <a href="Documentazione.html">Documentazione</a>
+            </button>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+
+          <div class="doc"></div>
+
+<div class="container reveal">
+<section>
+        <h1> Documentazione</h1>
+<p>
+    Blue Skies Big Band 
+    <h1>Abstract</h1>
+    <p></p>
+    
+    <h2>1. Benchmarking </h2>
+    <hr>
+    <br>
+
+    <h3>1. Obiettivi </h3>
+    <p>La Blue Skies Big Band è un progetto sociale fittizio che prevede la partecipazione degli studenti di alcune scuole di musica bolognesi e gli ospiti della casa di riposo “Henghel Gualdi”. Ispirati dal titolo dello standard di Irving Berlin, il gruppo promuove attraverso la libertà del linguaggio jazz una comunicazione musicale e sociale libera e genuina, da cui entrambe le parti possono trarre benefici emotivi.
+     <p>Gli anziani musicisti possono ritrovare, grazie alla presenza con gli studenti, un contatto con il mondo esterno, mentre i ragazzi possono trovare dei mentori in loro e imparare il valore della solidarietà.</p>
+   
+     <h3>2. Target</h3>
+     <p>Il progetto è indirizzato a tutti, in particolare a ragazzi adolescenti e a giovani adulti (max. 30 anni) studenti di musica.
+    <p>Passiamo in rassegna alcuni siti che si rivolgono a un pubblico simile o che propongono dei progetti sperimentali nel comune di Bologna o dintorni:</p>
+    
+    <h4> 1. <a href="https://chiavidascolto.org">Scuola di Musica Chiavi d'Ascolto</a></h4>
+   <p>Progetto finanziato dal Comune di Bologna, con sede anche a Castenaso. Rivolta a studenti di ogni età, la scuola offre un ampio ventaglio di servizi, che riguardano il mondo della musica a tutto tondo, con seminari e corsi sia di strumento individuale che di musica d'insieme.</p>
+<h4> 2.<a href="https://www.spmii.it/">Scuola di Musica Popolare Ivan Illich</a></h4>
+   <p>Sito simile al primo ma dalla vocazione sociale ancora più pronunciata: offre corsi di musica svincolata da restrizioni accademiche. Vuole usare la musica come strumento per abbattere le barriere sociali e promuovere una piena integrazione tra chi vi suona.</p>
+
+   
+   <h2>2. Struttura e layout</h2>
+   <h3> 1.Struttura</h3>
+  <img src="Blue Skies Diagramma.jpg" width="800px">
+
+    <h2>>2. DISEGNA IL WIREFRAME</h2>
+    
+    
+    <h2> 3. Linguaggi e strumenti </h2>
+    <hr>
+   <p> Linguaggi di programmazione utilizzati: HTML, CSS, Javascript e Ruby. </p>
+    <p>Programmi utilizzati: Visual Studio Code, Git e Github per la programmazione e per la pubblicazione. Matomo per il conteggio delle visualizzazioni. Pexels per il download delle fotografie presenti nel sito. Procreate e Canva per la creazione di disegni da fatti da me e per la manipolazione delle fotografie.</p>
+    
+  
+    <h3>Look and feel</h3>
+    <p>Ispirati allo stile artistico di molti album e poster di rassegne jazz, ho creato dei disegni che riprendessero le caratteristiche visive dello stile artistico Midcentury, diffuso tra gli anni '50 e '60 del '900. Lo stile usa palette di colori minima ed è basato sulle forme e i contrasti tra le forme dei personaggi e quelle dello sfondo.
+    Il colore blu riprende nome della band, a cui ho affiancato un rosso tenue che possa contrastarlo. La combinazione di colori richiama in maniera velata la città in cui svolge il corso, offrendo anche un approccio estetico che possa distinguere il sito.</p>
+    <p>Ho basato molta parte del linguaggio visivo del sito sull'accessibilità, in particolar modo nei confronti di potenziali utenti con autismo, ADHD, ansia, dislessia e difficoltà visive. Ho quindi optato per un'interfaccia minima, un linguaggio semplice e conciso, dei colori morbidi e ho applicato supporto per visori.</p>
+    
+    <div class="row">
+      <div class="column">
+          <br>
+      <img src="Blue Skies Concept Brand.png" width="300" margins="auto" alt="un disegno di un grande libro stilizzato">
+        </div>
+      <div class="column"> 
+        <br>
+        <img src="Blue Skies Concept Art.png" width= 300>  
+       </div>
+  </div> 
+  </div>  
+  </div> 
+  <br>
+
+  <h2>Communication Strategy</h2>
+  <hr>
+   <h3> 1. Background</h3>
+   <p>Online non sono presenti molte iniziative sociali a tema musicale che proponga come servizio principale la visita di giovani ragazzi in una casa di riposo con lo scopo di una collaborazione tra loro e gli ospiti, ponendo quindi enfasi sullo scambio reciproco di idee e conoscenza e il dialogo intergenerazionale.</p>
+   <h3> 2. Obiettivi comunicativi</h3>
+    <p>Durante la creazione del sito mi sono posta due obiettivi diversi: il primo raggiungimento di almeno 50 visualizzazioni da parte di altrettante persone diverse. Il secondo è il raggiungimento di 20 likes su un post qualsiasi promosso nel profilo Instagram del gruppo. Per far sì che il gruppo venisse conosciuto ulteriormente ho voluto pure affidarmi sulla produzione grafica di alcuni biglietti da visita da distribuire a chiunque fosse interessato al progetto.</p>
+    <p>L'obiettivo principale del target sono gli studenti di musica che vivono a Bologna e provincia ma sono ben accetti anche chi ha una conoscenza basilare di uno strumento musicale qualsiasi.</p>
+   
+    <h2> 3. Target audience e messaggio</h2>
+    <hr>
+    <br>
+   
+   <h3>1. Target audience</h3>
+
+   <p> Il mio sito si rivolge principalmente a un target di adolescenti e giovani adulti (massimo 30 anni) che studiano musica, un pubblico che fa un uso massiccio di social network ed è molto sensibile all'arte e ai temi sociali.</p>
+    <p>Il target secondario sono gli adulti neopensionati che vogliono riprendere la pratica del proprio strumento. </p>
+   
+    <h3>2. Quale messaggio trasmette il sito?</h3>
+    <p>Il sito della Blue Skies Big Band vuole trasmettere la concezione di musica come un'entità estremamente libera, duttile, adatta a tutti. Qui viene specificatamente applicata come collante sociale, facendo sensibilizzazione e cercando quindi di attenuare l'incomprensione e la solitudine reciproca sentita dalle fasce più giovani e più anziane della popolazione.</p>
+     <p> Un potenziale ostacolo per la comunicazione può essere il crescente calo d'interesse dei potenziali utenti</p>
+
+    <h2>4. Promozione</h2>
+    <hr>
+    <br>
+    <p>Il sito è stato promosso tramite una combinazione tra il passaparola tra l'autrice del sito e gli insegnanti della scuola di musica che frequenta, nonché dei suoi amici. Ho anche collaborato con gli studenti e un insegnante di una scuola media di Bologna.
+    Per permettere un'ulteriore diffusione del sito, ho aperto un profilo su Instagram in cui si pubblicizzano e si delineano i contenuti del corso, nonché con la stampa di biglietti da visita da distribuire alle persone interessate al progetto.</p>
+    
+   <h2> 5. Valutazione dei risultati</h2>
+   <hr>
+   <br>
+   <p>È stato posto ai visitatori del sito un sondaggio in cui si ponevano delle domande tecniche sulla fruizione del sito e sulla ricezione dei temi.
+    Secondo le statistiche di Matomo, il sito ha ampiamente superato il limite prefissato di 50 visite e anche il tempo medio di visita è risultato ottimo.
+    Il progetto sembra aver suscitato abbastanza interesse, in particolar modo tra gli utenti del target secondario e il messaggio di fondo sembra essere stato accolto bene, avendo qualche utente chiesto all'autrice del sito se il progetto esistesse veramente ed esprimendo il desiderio di un'effettiva realizzazione di questa idea.</p>
+</p>
+<br>
+  
+
+
+  <footer>
+          
+    <div class="footer-info">
+      <h4>Seguici sui social</h4>
+      <a href="https://www.instagram.com/blueskiesbologna/" class="fa fa-instagram"></a>
+      <h4>Numero Telefonico: +39 333 333 333;</h4>
+      <h4> Piazza Maggiore, 1, Bologna - Casa di Riposo "Henghel Gualdi"</h4>
+      <h4>Partita IVA: IT 000 000 000 00</h4>
+      <h4> &#169; 2023-2024: Martina C.</h4>
+      </div>
+            </footer>
+    </body>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+
+        function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+
+function navBarFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '<Some Property ID A>');
+gtag('config', '<Some Property ID B>');
+gtag('event', 'sign_up', { 'method': 'email' });
+gtag('event', 'view_video', { 'send_to': '<Some Property ID B>' });
+
+        </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<Some Property ID A>"></script>
+
+        </script>
+</html>
